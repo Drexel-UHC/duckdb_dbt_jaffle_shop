@@ -1,0 +1,9 @@
+jaffle_shop:
+  outputs:
+    dev:
+      type: duckdb
+      path: jaffle_shop.duckdb
+      schema: parquet
+      extensions:
+      external_root: 'external\'      
+  target:  dev
